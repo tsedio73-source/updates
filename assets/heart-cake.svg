@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="12" y1="10" x2="113" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8FB"/>
+      <stop offset="1" stop-color="#F6D8E7"/>
+    </linearGradient>
+    <linearGradient id="frost" x1="42" y1="51" x2="89" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5F9"/>
+      <stop offset="1" stop-color="#F3A6C4"/>
+    </linearGradient>
+    <linearGradient id="cake" x1="37" y1="64" x2="92" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F49ABB"/>
+      <stop offset="1" stop-color="#D75287"/>
+    </linearGradient>
+  </defs>
+  <rect x="5" y="5" width="118" height="118" rx="37" fill="url(#bg)"/>
+  <path d="M62 35v16" stroke="#785468" stroke-width="5" stroke-linecap="round"/>
+  <path d="M63 18c-8 9-10 15-7 20 3 4 10 3 12-1 3-5-1-13-5-19Z" fill="#FFB653"/>
+  <path d="M64 25c-4 6-4 10-1 12 2 1 4-1 4-3 0-3-1-6-3-9Z" fill="#FFF1B8"/>
+  <path d="M36 62c0-8 11-14 28-14s28 6 28 14v32c0 7-12 13-28 13s-28-6-28-13V62Z" fill="url(#cake)"/>
+  <ellipse cx="64" cy="62" rx="28" ry="13" fill="url(#frost)"/>
+  <path d="M38 66c4 4 8 3 10 0 2 7 6 8 9 4 2 6 7 6 9 0 3 6 7 6 10 0 3 5 8 4 11 0v24c-5 4-14 7-23 7-11 0-21-4-26-9V66Z" fill="url(#cake)"/>
+  <path d="M36 94c7 7 18 10 28 10s20-3 28-9" stroke="#FFD7E7" stroke-width="5" stroke-linecap="round"/>
+  <path d="M50 61v5m14-8v5m14 2v5" stroke="#FFF1C8" stroke-width="3" stroke-linecap="round"/>
+  <path d="m95 26 2 6 6 2-6 2-2 6-2-6-6-2 6-2 2-6Z" fill="#DEA461"/>
+</svg>
