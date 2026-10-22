@@ -15,6 +15,7 @@
     seconds: document.getElementById("seconds"),
   };
   const reveal = document.getElementById("birthday-reveal");
+  const headlineLead = document.getElementById("headline-lead");
   const interactionNote = document.getElementById("interaction-note");
   const blowButton = document.getElementById("blow-button");
   const relightButton = document.getElementById("relight-button");
@@ -39,8 +40,9 @@
     if (remaining === 0 && !birthdayHasArrived) {
       birthdayHasArrived = true;
       reveal.hidden = false;
+      headlineLead.textContent = "The moment is here!";
       document.body.classList.add("birthday-time");
-      interactionNote.textContent = "Midnight aa gaya — ab celebration officially shuru!";
+      interactionNote.textContent = "Midnight is here — let the celebration begin!";
       if (!reducedMotion.matches) launchConfetti();
     }
   }
@@ -49,19 +51,19 @@
     document.body.classList.add("flames-off");
     blowButton.hidden = true;
     relightButton.hidden = false;
-    interactionNote.textContent = "Wish maang li? Bas, ab stars ko pata hai. ✨";
+    interactionNote.textContent = "Wish made? The stars will keep it safe.";
   }
 
   function relightCandles() {
     document.body.classList.remove("flames-off");
     relightButton.hidden = true;
     blowButton.hidden = false;
-    interactionNote.textContent = "Candles phir se jal gayi — ek aur wish ready hai.";
+    interactionNote.textContent = "The candles are glowing again — ready for another wish.";
   }
 
   function launchConfetti() {
     if (reducedMotion.matches) {
-      interactionNote.textContent = "Tumhari wish stars tak pahunch gayi. ✨";
+      interactionNote.textContent = "Your wish is on its way to the stars.";
       return;
     }
 
@@ -118,7 +120,7 @@
     }
 
     requestAnimationFrame(frame);
-    interactionNote.textContent = "Wish maango — confetti bhi tumhare liye! ✨";
+    interactionNote.textContent = "Your wish, with a little confetti too!";
   }
 
   blowButton.addEventListener("click", blowCandles);

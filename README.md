@@ -2,6 +2,8 @@
 
 A small, responsive birthday page made by a friend. The cake is drawn in CSS with perspective, animated candle flames, a live midnight countdown, candle controls and reduced-motion-aware confetti.
 
+**Live site:** https://tsedio73-source.github.io/updates/
+
 ## Run locally
 
 ```bash

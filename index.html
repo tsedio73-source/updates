@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="hi-Latn">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,10 +8,10 @@
       name="description"
       content="A little birthday countdown and cake celebration for Anshika, made by a friend."
     />
-    <title>Almost your birthday, Anshika!</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/styles.css" />
-    <script src="/app.js" defer></script>
+    <title>A birthday surprise for Anshika</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
   </head>
   <body>
     <div class="page-glow page-glow--one" aria-hidden="true"></div>
@@ -34,10 +34,10 @@
     <main id="top" class="birthday-layout">
       <section class="message-column" aria-labelledby="page-title">
         <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> a tiny surprise from a friend</p>
-        <h1 id="page-title">Bas kuch hi pal…<br />phir <span class="name-highlight">Happy Birthday, Anshika!</span></h1>
+        <h1 id="page-title"><span id="headline-lead">Just a few more moments…</span><br /><span class="name-highlight">Happy Birthday, Anshika!</span></h1>
         <p class="intro-copy">
-          Ek chhota sa celebration, sirf tumhare liye—cake, candles, aur ek dost ki taraf se dher saari good wishes.
-          Raat ke 12 bajte hi, tumhara special day shuru!
+          A little celebration, just for you—with cake, candles, and warm wishes from a friend.
+          Your special day begins when the clock strikes midnight.
         </p>
 
         <section class="countdown-card" aria-labelledby="countdown-title">
@@ -56,25 +56,25 @@
           </div>
           <div class="countdown-footer">
             <span class="calendar-icon" aria-hidden="true">♡</span>
-            <span>23 October <span class="footer-dot" aria-hidden="true">·</span> 12:00 AM <span class="timezone-label">India Standard Time</span></span>
+            <span>October 23, 2026 <span class="footer-dot" aria-hidden="true">·</span> 12:00 AM <span class="timezone-label">India Standard Time</span></span>
           </div>
           <p class="birthday-reveal" id="birthday-reveal" hidden>
-            It’s your day, Anshika! Happy Birthday — hope it’s full of smiles, sweet surprises and all your favourite things.
+            It’s your day, Anshika! Happy Birthday! Wishing you a year full of smiles, sweet surprises, and everything you love.
           </p>
         </section>
 
         <div class="button-row">
           <button class="button button--primary" id="wish-button" type="button">
-            <span aria-hidden="true">✦</span> Ek wish maang lo
+            <span aria-hidden="true">✦</span> Make a wish
           </button>
           <button class="button button--quiet" id="blow-button" type="button">
-            <span aria-hidden="true">☁</span> Candles bujhao
+            <span aria-hidden="true">☁</span> Blow out the candles
           </button>
           <button class="button button--quiet" id="relight-button" type="button" hidden>
-            <span aria-hidden="true">✧</span> Phir se jalao
+            <span aria-hidden="true">✧</span> Relight the candles
           </button>
         </div>
-        <p class="interaction-note" id="interaction-note" aria-live="polite">Wish maango, ya candles par tap karke unhe bujhao.</p>
+        <p class="interaction-note" id="interaction-note" aria-live="polite">Make a wish, or use the button to blow out the candles.</p>
       </section>
 
       <section class="cake-column" aria-label="Interactive 3D birthday cake">
